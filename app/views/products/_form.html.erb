@@ -1,0 +1,92 @@
+<%= form_with(model: product, local: true) do |form| %>
+  <% if product.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(product.errors.count, "error") %> prohibited this product from being saved:</h2>
+
+      <ul>
+      <% product.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :asin %>
+    <%= form.text_field :asin, id: :product_asin %>
+  </div>
+
+  <div class="field">
+    <%= form.label :category %>
+    <%= form.text_area :category, id: :product_category %>
+  </div>
+
+  <div class="field">
+    <%= form.label :rank %>
+    <%= form.text_field :rank, id: :product_rank %>
+  </div>
+
+  <div class="field">
+    <%= form.label :item_width %>
+    <%= form.text_field :item_width, id: :product_item_width %>
+  </div>
+
+  <div class="field">
+    <%= form.label :item_height %>
+    <%= form.text_field :item_height, id: :product_item_height %>
+  </div>
+
+  <div class="field">
+    <%= form.label :item_length %>
+    <%= form.text_field :item_length, id: :product_item_length %>
+  </div>
+
+  <div class="field">
+    <%= form.label :item_width_units %>
+    <%= form.text_area :item_width_units, id: :product_item_width_units %>
+  </div>
+
+  <div class="field">
+    <%= form.label :item_height_units %>
+    <%= form.text_area :item_height_units, id: :product_item_height_units %>
+  </div>
+
+  <div class="field">
+    <%= form.label :item_length_units %>
+    <%= form.text_area :item_length_units, id: :product_item_length_units %>
+  </div>
+
+  <div class="field">
+    <%= form.label :package_width %>
+    <%= form.text_field :package_width, id: :product_package_width %>
+  </div>
+
+  <div class="field">
+    <%= form.label :package_height %>
+    <%= form.text_field :package_height, id: :product_package_height %>
+  </div>
+
+  <div class="field">
+    <%= form.label :package_length %>
+    <%= form.text_field :package_length, id: :product_package_length %>
+  </div>
+
+  <div class="field">
+    <%= form.label :package_width_units %>
+    <%= form.text_area :package_width_units, id: :product_package_width_units %>
+  </div>
+
+  <div class="field">
+    <%= form.label :package_height_units %>
+    <%= form.text_area :package_height_units, id: :product_package_height_units %>
+  </div>
+
+  <div class="field">
+    <%= form.label :package_length_units %>
+    <%= form.text_area :package_length_units, id: :product_package_length_units %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

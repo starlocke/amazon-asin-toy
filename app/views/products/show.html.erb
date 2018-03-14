@@ -1,0 +1,79 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Asin:</strong>
+  <%= @product.asin %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @product.category %>
+</p>
+
+<p>
+  <strong>Rank:</strong>
+  <%= @product.rank %>
+</p>
+
+<p>
+  <strong>Item width:</strong>
+  <%= @product.item_width %>
+</p>
+
+<p>
+  <strong>Item height:</strong>
+  <%= @product.item_height %>
+</p>
+
+<p>
+  <strong>Item length:</strong>
+  <%= @product.item_length %>
+</p>
+
+<p>
+  <strong>Item width units:</strong>
+  <%= @product.item_width_units %>
+</p>
+
+<p>
+  <strong>Item height units:</strong>
+  <%= @product.item_height_units %>
+</p>
+
+<p>
+  <strong>Item length units:</strong>
+  <%= @product.item_length_units %>
+</p>
+
+<p>
+  <strong>Package width:</strong>
+  <%= @product.package_width %>
+</p>
+
+<p>
+  <strong>Package height:</strong>
+  <%= @product.package_height %>
+</p>
+
+<p>
+  <strong>Package length:</strong>
+  <%= @product.package_length %>
+</p>
+
+<p>
+  <strong>Package width units:</strong>
+  <%= @product.package_width_units %>
+</p>
+
+<p>
+  <strong>Package height units:</strong>
+  <%= @product.package_height_units %>
+</p>
+
+<p>
+  <strong>Package length units:</strong>
+  <%= @product.package_length_units %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>

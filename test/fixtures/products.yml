@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  asin: MyStringOne
+  category: MyText
+  rank: 
+  item_width: 9.99
+  item_height: 9.99
+  item_length: 9.99
+  item_width_units: MyText
+  item_height_units: MyText
+  item_length_units: MyText
+  package_width: 9.99
+  package_height: 9.99
+  package_length: 9.99
+  package_width_units: MyText
+  package_height_units: MyText
+  package_length_units: MyText
+
+two:
+  asin: MyStringTwo
+  category: MyText
+  rank: 
+  item_width: 9.99
+  item_height: 9.99
+  item_length: 9.99
+  item_width_units: MyText
+  item_height_units: MyText
+  item_length_units: MyText
+  package_width: 9.99
+  package_height: 9.99
+  package_length: 9.99
+  package_width_units: MyText
+  package_height_units: MyText
+  package_length_units: MyText
