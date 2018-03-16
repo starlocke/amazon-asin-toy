@@ -2,6 +2,12 @@
 
 This is a "toy" app. There is absolutely zero security thinking in place.
 
+## Screenshot
+
+![App Screenshot](/docs/app-screenshot.png?raw=true "App Screenshot")
+
+## Introduction
+
 The following instructions should be done in top-down order:
 
 - Configuration
