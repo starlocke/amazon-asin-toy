@@ -12,6 +12,11 @@ The following instructions should be done in top-down order:
 - Browse
 - Add ASINs
 
+## TL;DR (Quick) launch
+
+- Run `./launch.sh`, follow instructions.
+- Requires "Configuration"
+
 ## Configuration
 
 Amazon Credentials
